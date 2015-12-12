@@ -1,0 +1,26 @@
+body{
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1{
+  background-color: red;
+  border: 5px solid #000000;
+ padding: 10px;
+}
+
+p{
+  background-color: DeepSkyBlue;
+  color: #ffffff;
+  padding: 10px;
+  border: 2px solid Indigo;
+
+}
+
+code{
+  background-color: #ffffff;
+  color: #333333;
+  padding:5px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
