@@ -10,35 +10,40 @@ Developer @GA in NYC
 /* SETUP
 /*******************************************/
 
+
 /* Box Model Hack */
+
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box;
+  /* Firexfox */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box;
+  /* IE */
 }
 
 /* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
 .clear {
   clear: both;
 }
-
 .alignright {
   float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  padding: 0 0 10px 10px;
+  /* note the padding around a right floated image */
 }
-
 .alignleft {
   float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  padding: 0 10px 10px 0;
+  /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -46,39 +51,91 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+    background-size: contain;
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
+
 /* Center the container */
+
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
+    height: 500px;
 }
 
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+
+h1 {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 48px;
+  margin: 40px;
+  font-weight: 800;
+  color: #ffffff;
+}
 header {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  margin: 60px;
 
 }
 
-footer {
+.cta{
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #033048;
+text-align: center;
+background-color: #f9e42e;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 50px;
+padding-left: 50px;
+border-radius: 5px;
+}
+
+.button{
+  text-align: center;
+  margin-top: -30px;
+}
+
+a {
+  font-family: 'OpenSans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+#benefits{
+width: 100%;
+margin: auto;
+height: 500px;
+background-color: #ffffff;
+}
+
+h2{
+  font-family: 'OpenSans', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #033048;
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 200px;
 
 }
+
+footer {}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
