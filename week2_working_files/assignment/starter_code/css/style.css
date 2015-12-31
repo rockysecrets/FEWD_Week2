@@ -20,6 +20,8 @@ Developer @GA in NYC
   /* Safari/Chrome/iOS/Android */
   box-sizing: border-box;
   /* IE */
+  margin: 0;
+  padding: 0;
 }
 
 /* Clear fix hack */
@@ -55,8 +57,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
-    background-size: contain;
+
 }
 
 /******************************************
@@ -68,8 +69,10 @@ body {
 
 #container {
   width: 100%;
-  margin: auto;
-    height: 500px;
+    margin: auto;
+    height: 700px;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+      background-size: cover;
 }
 
 @import url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
@@ -77,7 +80,6 @@ body {
 h1 {
   font-family: 'OpenSans', sans-serif;
   font-size: 48px;
-  margin: 40px;
   font-weight: 800;
   color: #ffffff;
 }
@@ -87,7 +89,8 @@ header {
   font-weight: 600;
   color: #ffffff;
   text-align: center;
-  margin: 60px;
+  margin-left: 80px;
+  margin-top: 150px;
 
 }
 
@@ -107,7 +110,7 @@ border-radius: 5px;
 
 .button{
   text-align: center;
-  margin-top: -30px;
+  margin-top: 30px;
 }
 
 a {
@@ -120,7 +123,7 @@ a {
 width: 100%;
 margin: auto;
 height: 500px;
-background-color: #ffffff;
+background-color: #f0efef;
 }
 
 h2{
@@ -129,9 +132,7 @@ h2{
   font-weight: 400;
   color: #033048;
   text-align: left;
-  margin-left: 150px;
-  margin-top: 200px;
-
+  padding: 80px;
 }
 
 footer {}
