@@ -57,7 +57,6 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
-
 }
 
 /******************************************
@@ -69,48 +68,74 @@ body {
 
 #container {
   width: 100%;
-    margin: auto;
-    height: 700px;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
-      background-size: cover;
+  margin: auto;
+}
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+#hero {
+  width: 100%;
+  margin: auto;
+  height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+  background-size: cover;
 }
 
-@import url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans);
+#logo{
+  padding-left: 40px;
+  padding-top: 40px;
+}
 
 h1 {
   font-family: 'OpenSans', sans-serif;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 700;
   color: #ffffff;
 }
 header {
   font-family: 'OpenSans', sans-serif;
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 500;
   color: #ffffff;
   text-align: center;
   margin-left: 80px;
-  margin-top: 150px;
-
+  margin-top: 100px;
+  margin-bottom: 70px;
 }
-
-.cta{
+.cta {
   font-family: 'OpenSans', sans-serif;
   font-weight: 700;
   font-size: 26px;
   color: #033048;
-text-align: center;
-background-color: #f9e42e;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-right: 50px;
-padding-left: 50px;
-border-radius: 5px;
+  text-align: center;
+    background-color: #f9e42e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+button {
+  text-align: center;
+  margin: auto;
+    border: none;
+    display: block;
+    background-color: inherit;
 }
 
-.button{
+.cta2 {
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #ffffff;
   text-align: center;
-  margin-top: 30px;
+    background-color: #033048;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 5px;
+  display: block;
+  margin-top: 20px;
+  margin: 20px;
 }
 
 a {
@@ -118,24 +143,68 @@ a {
   text-decoration: none;
   text-align: center;
 }
-
-#benefits{
-width: 100%;
-margin: auto;
-height: 500px;
-background-color: #f0efef;
+#benefits {
+  width: 100%;
+  margin: auto;
+  background-color: #f0efef;
+  height: auto;
 }
 
-h2{
+h2 {
   font-family: 'OpenSans', sans-serif;
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 600;
   color: #033048;
   text-align: left;
-  padding: 80px;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+p {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  color: #033048;
+  text-align: left;
+  padding-left: 80px;
+  padding-right: 280px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+li {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  color: #033048;
+  text-align: left;
+  padding-left: 180px;
+  padding-right: 360px;
+  padding-top: 20px;
+}
+#testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
+  background-size: cover;
+}
+blockquote {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 35px;
+  font-weight: 100;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  padding-left: 320px;
+  padding-right: 320px;
+  margin: auto;
+}
+#signupnow {
+  background-color: #f9e42e;
+  height: 100px;
 }
 
-footer {}
+footer {
+background-color: #033048;
+
+}
 
 /******************************************
 /* ADDITIONAL STYLES

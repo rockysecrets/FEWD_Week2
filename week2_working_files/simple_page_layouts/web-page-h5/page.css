@@ -14,11 +14,6 @@ main {
   margin-bottom: -142px;
 }
 
-main:after {
-  content: "";
-  display: block;
-}
-
 footer, main:after {
   height: 142px;
 }
