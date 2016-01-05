@@ -162,9 +162,13 @@ p {
   padding-left: 80px;
   padding-right: 280px;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 li {
+  padding: 15px;
+  list-style-type: disc;
+}
+ul {
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 100;
@@ -172,7 +176,6 @@ li {
   text-align: left;
   padding-left: 180px;
   padding-right: 360px;
-  padding-top: 20px;
 }
 h3 {
   font-family: 'Open Sans', sans-serif;
@@ -181,7 +184,7 @@ h3 {
   color: #ffffff;
   text-align: center;
   padding-bottom: 50px;
-    padding-top: 10px;
+  padding-top: 10px;
 }
 #testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
@@ -206,7 +209,6 @@ blockquote {
 ul a {
   color: #ffffff;
 }
-
 .footerlogo {
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
