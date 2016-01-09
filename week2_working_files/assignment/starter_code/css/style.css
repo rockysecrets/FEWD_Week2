@@ -209,6 +209,10 @@ blockquote {
 ul a {
   color: #ffffff;
 }
+ul {
+text-align: center;
+}
+
 .footerlogo {
   font-family: 'Open Sans', sans-serif;
   font-size: 40px;
@@ -219,8 +223,8 @@ ul a {
 }
 .socialmedia {
   color: #ffffff;
-  font-size: 40px;
   text-align: center;
+  padding-left: 160px;
 }
 .footertext {
   color: #ffffff;
