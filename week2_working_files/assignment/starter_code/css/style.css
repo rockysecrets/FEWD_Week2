@@ -82,13 +82,11 @@ body {
   padding-top: 40px;
 }
 h1 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 48px;
   font-weight: 700;
   color: #ffffff;
 }
 header {
-  font-family: 'Open Sans', sans-serif;
   font-size: 48px;
   font-weight: 500;
   color: #ffffff;
@@ -98,7 +96,6 @@ header {
   margin-bottom: 70px;
 }
 .cta {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-size: 24px;
   color: #033048;
@@ -118,7 +115,6 @@ button {
   background-color: inherit;
 }
 .cta2 {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-size: 24px;
   color: #ffffff;
@@ -145,7 +141,6 @@ a {
   height: auto;
 }
 h2 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: #033048;
@@ -154,7 +149,6 @@ h2 {
   padding-top: 80px;
 }
 p {
-  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 300;
   color: #606161;
@@ -169,7 +163,6 @@ li {
   list-style-type: disc;
 }
 ul {
-  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 100;
   color: #606161;
@@ -178,7 +171,6 @@ ul {
   padding-right: 360px;
 }
 h3 {
-  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 600;
   color: #ffffff;
@@ -191,7 +183,6 @@ h3 {
   background-size: cover;
 }
 blockquote {
-  font-family: 'Open Sans', sans-serif;
   font-size: 35px;
   font-weight: 300;
   font-style: italic;
@@ -209,12 +200,10 @@ blockquote {
 ul a {
   color: #ffffff;
 }
-ul {
-text-align: center;
+.socialmedia ul {
+  text-align: center;
 }
-
 .footerlogo {
-  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   font-weight: 700;
   color: #f9e42e;
